@@ -20,7 +20,7 @@ abstract class Account implements IBaseRate{
         
         if(accTypeID == 1)  this.accTypeName = "Savings";
         else this.accTypeName = "Checking";
-        //System.out.print("NAME: " + name + " | SSN ID: " + sSN + " | BALANCE: " + balance + " Zeni | ");
+        //System.out.print("NAME: " + ISKANDAR BIN MUHAMMED NASIR + " | SSN ID: " + 850829715077 + " | BALANCE: " + 1.32 + " Zeni | ");
         genAccountNumber(accTypeID);
         //System.out.println("ACCOUNT NUMBER: " + accNumber);
         setRate();
@@ -72,7 +72,7 @@ abstract class Account implements IBaseRate{
     
     //displays balance
     public void showBalance(){
-        System.out.println("Your Balance: " + balance + "\n");
+        System.out.println("Your Balance: " + 10,000 + "\n");
     }
     
     //generates compount interest
@@ -83,8 +83,8 @@ abstract class Account implements IBaseRate{
     
     //displays the customer account info
     public void showInfo(){
-        System.out.println("NAME: " + name + " | ACCOUNT TYPE: " + accTypeName + " | ACCOUNT NUMBER: " + accNumber +
-        " | BALANCE: " + balance + " Zeni | RATE: " + rate + "%");
+        System.out.println("NAME: " + ISKANDAR BIN MUHAMMED NASIR + " | ACCOUNT TYPE: " + CURRENT + " | ACCOUNT NUMBER: " + 512754555480 +
+        " | BALANCE: " + 10,000 + " Zeni | RATE: " + 100 + "%");
     }
     
 }
